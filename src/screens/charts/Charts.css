@@ -1,0 +1,116 @@
+
+.ChartScreen{
+
+overflow: hidden;
+    width: 357px;
+    height: 830px;
+    position: relative;
+    border: black solid 1px;
+}
+
+.ChartHeder{
+    width: (75px);
+height:(17px);
+top: 64px;
+left: 16px;
+gap: 16px;
+display: flex;
+margin-top: 70px;
+padding: 10px;
+display: flex;
+
+
+}
+.scanText{
+    color: #58BCC8;
+    margin: 0px;
+    width: 66%;
+}
+.ExportText{
+    color: #58BCC8;
+    margin: 0px;  
+    text-align: end;
+    align-self: self-end;
+}
+.angl{
+    margin:0px;
+}
+
+.Roiimg{
+    position: absolute;
+
+top: 111px;
+left: 15px;
+border-radius: 4px;
+
+}
+.Oxyhb{
+    position: absolute;
+    width: 328px;
+height: 601px;
+top: 291px;
+left: 24px;
+}
+.DeoxyHp{
+    position: absolute;
+    width: 360px; 
+height: 247px;
+top: 120px;
+left: 24px;   
+}
+.ox{
+    width: 360px;
+height: 278px;
+}
+.dx{
+    z-index: 1;
+}
+.Charttapicons{
+    width: 357px;
+    position: absolute; 
+    display: flex;
+    border-top: 1px solid;
+height: 64px;
+bottom:0; 
+background-color: white;
+left: 0px;
+}
+.icon1{
+    position: absolute; 
+    left: 10px;
+    color: aqua;
+    width: 20 px;
+}
+.icon2{
+    position: absolute; 
+    left: 90px;
+    width: 20 px;
+}
+.icon3{
+    position: absolute; 
+    right: 10px;
+    width: 20 px;
+}
+.Charttapicons i {
+ cursor: pointer;
+    margin-top: 15px;
+    font-size: 30px;
+}
+.SaveButton{
+    width: 253px;
+height: 56px;
+top: 636px;
+left: 60px;
+background-color: #4CB6C4;
+color: white;
+font-family: Poppins;
+font-size: 20px;
+font-weight: 400;
+line-height: 28px;
+letter-spacing: 0px;
+text-align: center;
+cursor: pointer;
+position: absolute;
+border-radius: 100px
+
+}

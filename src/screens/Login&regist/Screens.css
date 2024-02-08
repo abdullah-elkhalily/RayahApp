@@ -1,0 +1,168 @@
+.Screen{
+    width: 357px;
+    height: 830px;
+    position: relative;
+    border: black solid 1px;
+    overflow: hidden;
+
+}
+
+.REctangel {
+    background-color: rgba(241, 250, 252, 255);
+    height: 477px;
+    top: -190px;
+    left: -210px;
+    width: 757px;
+    position: absolute;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.cc {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.halfcircle {
+    width: 134px;
+    height: 124px;
+    position: absolute;
+bottom: -98px;    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    overflow: hidden;
+    border-radius: 50%;
+    background-color: transparent; /* Optional, just to visualize */
+}
+
+.circle{
+    width: 134px; 
+    height: 124px;
+    top: 25%;
+    left: 30%;
+    position: absolute;
+    overflow: hidden;
+    border: black solid 1px;
+    border-radius: 50%;
+
+}
+
+.textLogin{
+    position: absolute;
+    left:32%;
+    top: 35%;
+    font-size: 22px;
+    font-weight: 600;
+    z-index: 1;
+    color:#00000063;
+    /* text-align: center; */
+    margin-top: 60px;
+}
+.textHoch{
+    position: absolute;
+    left:23%;
+    top: 40%;
+    font-size: 22px;
+    font-weight: 700;
+    z-index: 1;
+    color:#000000;
+    /* text-align: center; */
+    margin-top: 60px;
+}
+
+.rectangelBotton{
+    cursor: pointer;
+    position: absolute;
+    left:9%;
+    bottom:  10%;
+    border-radius: 25px;
+width:298px;
+border: .5px #0000002B  solid;
+height:55px;
+background-color: #F8FBFA
+}
+/* SereenTow */
+.Email{
+    position: absolute;
+    left:9%;
+    bottom:  36%;
+ border-radius: 25px;
+width:298px;
+border: .5px #0000002B  solid;
+height:55px;
+background-color: #F8FBFA   
+
+}
+
+.password{
+    position: absolute;
+    left:9%;
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 500;
+    bottom:  26%;
+ border-radius: 25px;
+width:298px;
+border: .5px #0000002B  solid;
+height:55px;
+background-color: #F8FBFA   
+
+}
+.loginBotton{
+    cursor: pointer;
+    position: absolute;
+    left:9%;
+    text-align: center;
+    color: white;
+    bottom:  10%;
+    border-radius: 25px;
+width:298px;
+border: .5px #0000002B  solid;
+height:55px;
+background-color: rgba(0,168,182,255) 
+}
+.Creat{
+    position: absolute;
+    left:12%;   bottom:  4%;
+}
+/* 3 */
+
+.ConfirmPassword{
+    position: absolute;
+    left:9%;
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 500;
+    bottom:  16%;
+ border-radius: 25px;
+width:298px;
+border: .5px #0000002B  solid;
+height:55px;
+background-color: #F8FBFA    
+}
+.RegistBotton{
+    cursor: pointer;
+    position: absolute;
+    left:9%;
+   
+    color: white;
+    bottom:  7%;
+    border-radius: 25px;
+width:298px;
+border: .5px #0000002B  solid;
+height:55px;
+background-color: rgba(0,168,182,255)    
+}
+.login{
+
+    position: absolute;
+    left:14%;   bottom:  1%;
+   
+}
+.link{
+    text-decoration: none;
+    color: #000000;
+    font-weight: bold;
+}

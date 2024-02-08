@@ -1,0 +1,117 @@
+.ScannenHeder{
+    width: (75px);
+height:(17px);
+top: 64px;
+left: 16px;
+gap: 16px;
+display: flex;
+margin-top: 70px;
+padding: 10px;
+}
+.scanText{
+    color: #58BCC8;
+    margin: 0px;
+}
+.angl{
+    margin:0px;
+}
+.layoutMeasurement{
+    width: 290px;
+height:556px;
+top: 97px;
+left: 8px;
+gap: 21px;
+
+}
+.imgside{
+    margin-top: 10px;
+    width: 315px;
+    height: 181px;
+}
+
+.LiveView{
+
+    font-family: Tajawal;
+font-size: 16px;
+font-weight: 700;
+line-height: 19px;
+letter-spacing: 0.03em;
+text-align: left;
+
+}
+.colorsSide{
+    display: flex;
+    flex-direction: column;
+    z-index: 1;
+    top: 355px;
+right: 30px;
+position: absolute;
+
+}
+.colorsSide2{
+    display: flex;
+    flex-direction: column;
+    z-index: 1;
+    top: 545px;
+right: 30px;
+position: absolute;
+
+}
+.numbers{
+    display: flex;
+    flex-direction: column;
+    z-index: 1;
+    top: 335px;
+right: 10px;
+position: absolute;
+
+}
+.numbers2{
+    display: flex;
+    flex-direction: column;
+    z-index: 1;
+    top: 535px;
+right: 10px;
+position: absolute;
+
+}
+.color1 ,.color2,.color3,.color4,.color5,.color6,.color7,.color8{
+ width: 19px;
+height: 10px;
+cursor: pointer;
+background-color: rgb(65, 4, 4);
+
+}
+.color2{
+background-color: rgba(114, 22, 22, 0.822);}.color3{background-color: #e21010;  }.color4{background-color: rgb(255, 208, 0);
+}
+.color5{
+     background-color: rgb(102, 255, 0);}.color6{  background-color: #288ae6; }.color7{  background-color: rgb(0, 204, 255); }.color8{  background-color: rgb(0, 26, 255); }
+    .DropButton{
+        width: 315px;
+        position: absolute;
+height: 56px;
+top: 721px;
+text-align: center;
+background-color: #BECDCF3D;
+left: 15px;
+border-radius: 6px;
+
+    }
+    .MaxSize{
+width: 72px;
+height: 22px;
+position: absolute;
+top: 28px;
+left: 120px;
+font-family: Open Sans;
+font-size: 10px;
+font-weight: 400;
+line-height: 22px;
+letter-spacing: 0.02em;
+
+
+    }
+    .MeasurementTwo{
+        overflow: hidden;
+    }

@@ -1,0 +1,193 @@
+.icon{
+    position: absolute;
+    z-index: 1;
+    right: 20px;
+    top: 50px;
+    font-size: 25px;
+}
+.profileimg{
+    display: flex;
+    position: absolute;
+    left: 20px;
+    top: 50px;
+    width: 121px;
+    height: 40px;
+}
+.Prof-img{
+    border-radius: 50%;
+    margin-right: 6px;
+}
+.textProf{
+    width: 72px;
+    height: 35px;
+    margin-top: 2px;
+    align-items: center;
+}
+.prof-Text{
+    margin: 0px;
+font-size: 12px;
+color: gray;
+}
+.profName{
+    margin: 2px;
+
+font-size: 15px;
+font-weight: 600;
+}
+.Result{
+    width: 311Px;
+    height: 32px;
+    display: flex;
+    position: absolute;
+  top: 340px;
+  left: 20px;
+  /* border-bottom: .5px black solid; */
+  padding: 0;
+
+}
+.ResultText{
+    margin: 5px;
+    font-family: Poppins;
+    width: 103px;
+    font-size: 21px;
+    font-weight: 500;
+    height: 33px;
+}
+.viewAll{
+    text-align: end;
+    width: 550px;
+    height: 17px;
+    font-size: 14px;
+    color: black !important;
+    margin: 7px;
+}
+
+.allUpdates{
+    position: absolute;
+    /* border: gray 1px solid; */
+width:343px;
+height: 223px;
+top: 397px;
+left: 5px;
+padding: 0px, 0px, 16px, 0px;
+/* gap: 16px; */
+
+}
+.ShowUpdat{
+    width: 343px;
+height: Hug (146px);
+padding: 0px, 16px, 0px, 16px;
+gap: 12px;
+
+}
+.texrupdat{
+    display: flex;
+    width: Fill (196px);
+height: Hug (50px);
+gap: 4px
+
+}
+.man-hold{
+    font-size: 14px;
+    font-weight: 500;
+    margin: 5px;
+    font-family: Heading/Medium;
+}
+.updatDate{
+    font-family: Body/Small;
+    font-weight: 400;
+    font-size: 12px;
+}
+.size{
+    width:52px;
+    text-align: center;
+height: 20px;
+padding: 4px, 8px, 4px, 8px;
+border-radius: 2px;
+align-items: center;
+margin-top: 15px;
+justify-self:flex-end;
+border: .5px solid;
+
+}
+.dots{
+    margin: 5px;
+    margin-top: 20px;
+}
+.Oneupdate{
+    width: 311px;
+height: (67px);
+gap: 16px;
+border: 1px solid;
+position: absolute;
+top: 10px;
+left: 10px;
+
+}
+.secandupdate{
+    width: 311px;
+    height: (67px);
+    position: absolute;
+    top: 150px;
+left: 10px;
+
+    border-bottom: .5 gray solid;
+}
+.ButtonView{
+    width: 135px;
+    cursor: pointer;
+height: 28px;
+padding: 7px, 20px, 7px, 20px;
+border-radius: 40px;
+border: 1px solid;
+gap: 10px;
+position: absolute;
+left: 100px;
+top: 180px;
+background-color: white;
+}
+.TabButton{
+    /* position: relative; */
+}
+.centerButon{
+    position: absolute;
+    bottom: 44px;
+    width: 48px;
+    z-index: 1;
+height: 48px;
+left: 45%;
+cursor: pointer;
+
+
+}
+.tapicons{
+    width: 357px;
+    position: absolute; 
+    display: flex;
+    border-top: 1px solid;
+height: 64px;
+bottom:0; 
+left: 0px;
+
+}
+.icon1{
+    position: absolute; 
+    left: 10px;
+    color: aqua;
+    width: 20 px;
+}
+.icon2{
+    position: absolute; 
+    left: 90px;
+    width: 20 px;
+}
+.icon3{
+    position: absolute; 
+    right: 10px;
+    width: 20 px;
+}
+.tapicons i {
+ cursor: pointer;
+    margin-top: 15px;
+    font-size: 30px;
+}
