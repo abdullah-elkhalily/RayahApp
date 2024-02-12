@@ -4,7 +4,11 @@ import  './Measurement.css'
 import  '../Login&regist/Screens.css'
 import  img4 from '../../assets/4.jfif' 
 import  img5 from '../../assets/3.png' 
+import { useNavigate } from 'react-router-dom'
+
 export const Measurement = () => {
+  const navigate = useNavigate();
+
   return (
     <>
        <div className='Screen'> 
@@ -95,7 +99,7 @@ export const Measurement = () => {
  </div>
       <div className="DropButton">
 
-        <p className='TextDrop'>Drop your file here, or <a href="#">  Browse</a></p>
+        <p className='TextDrop'>Drop your file here, or <a href="/Upload">  Browse</a></p>
         <p className='MaxSize'>Max size 10MB</p>
       </div>
         </div>

@@ -2,6 +2,8 @@
 import React from 'react'
 import  './Upload.css'
 import  img1 from '../../assets/one.png' 
+import  img2 from '../../assets/10.png' 
+
 import ProgressBar from 'react-bootstrap/ProgressBar';
 
 
@@ -19,7 +21,8 @@ function BasicExample() {
         <div className='UploadScreen'>
 
 <div className="UploadFream">
-<i className="fa-solid fa-arrow-up-from-bracket uploadIcon"></i>
+<img src={img2} width={80} height={80} className='uploadImg'/>
+
 
 <p className='BrowseUpload'> 
 

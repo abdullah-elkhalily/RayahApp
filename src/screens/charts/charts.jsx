@@ -59,15 +59,14 @@ const Charts = () => {
         </div>
         <div className="TabButton">
       <div className='centerButon'>
-      <img src={img2} width={40} height={40}/>
+      <img src={img2} width={40} height={40} />
 
       </div>
-      <div className='Charttapicons'>
+      <div className='tapicons'>
     
-      <i className="fa-brands fa-microsoft icon1"></i>
-      <i className="fa-brands fa-facebook-messenger icon2"></i>
-      <i className="fa-regular fa-user icon3"></i>
-      </div>
+      <i className="fa-solid fa-calendar-days iconC"></i>
+            <i className="fa-brands fa-facebook-messenger icon2"></i>
+            <i className="fa-solid fa-user iconUser"></i>                 </div>
     </div>
         </div>
            
