@@ -1,7 +1,6 @@
 /* eslint-disable no-unused-vars */
 import React from 'react'
 import  './Scannen.css'
-import  '../Login&regist/Screens.css'
 import  img4 from '../../assets/4.jfif' 
 
 

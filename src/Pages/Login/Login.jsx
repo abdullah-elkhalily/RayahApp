@@ -1,20 +1,17 @@
 /* eslint-disable no-unused-vars */
 import React from 'react'
-import  './Screens.css'
+import  './Login.css'
 import  img1 from '../../assets/one.png' 
+import { useNavigate } from 'react-router-dom';
+import HeaderPage from "../../Component/Headerpage/HeaderPage";
 
+export const Login = () => {
+  const navigate = useNavigate();
 
-export const Screen3 = () => {
   return (
     <>
     <div className='Screen'>
-    <div className="REctangel">
-  <div className='cc'>
-    <div className="halfcircle">
-        <img src={img1}  width={"100%"} height={"100%"} />
-    </div></div>
-
-</div>
+      <HeaderPage></HeaderPage>
 
     <p className="textLogin">Welcome to
  </p>
@@ -22,13 +19,10 @@ export const Screen3 = () => {
     <form action="">
         <input className='Email' type="email"  placeholder='Email Address'/>
         <input className='password' type="password"  placeholder='password'/>
-        <input className='ConfirmPassword' type="password"  placeholder=' Confirm Password'/>
-
-        <button className="RegistBotton">
-Sin Up
+        <button className="loginBotton "  onClick={() => { navigate('/profile')}}>
+Log in
     </button>
-    <p className='login'> Don’t have an account?<a className='link' href="./Login"> Sin in </a> </p> 
-
+   <p className='Creat'> Don’t have an account?<a className='link' href="./Regist"> Creat acount</a> </p> 
     </form>
 
     </div>

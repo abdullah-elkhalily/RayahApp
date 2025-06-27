@@ -1,6 +1,5 @@
 /* eslint-disable no-unused-vars */
 import React from 'react'
-import  '../Login&regist/Screens.css'
 import  './Location.css'
 import Map from './Map-Location'
 export const Location = () => {

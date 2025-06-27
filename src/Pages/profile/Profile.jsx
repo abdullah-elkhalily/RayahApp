@@ -1,6 +1,5 @@
 // eslint-disable-next-line no-unused-vars
 import React from 'react'
-import  '../Login&regist/Screens.css'
 import  './profile.css'
 
 import  img1 from '../../assets/6.jfif' 

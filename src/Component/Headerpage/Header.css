@@ -1,0 +1,37 @@
+
+
+.HeaderRectangel {
+    background-color: rgb(112, 205, 228);
+ height: 465px;
+    top: -190px;
+    left: -230px;
+    width: 238%;
+    position: absolute;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+
+.halfcircle {
+    width: 115px;
+    height: 115px;
+    position: absolute;
+bottom: -80px;    left: 52%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    overflow: hidden;
+    border-radius: 50%;
+    background-color: transparent; /* Optional, just to visualize */
+}
+
+.circle{
+    width: 134px; 
+    height: 124px;
+    top: 25%;
+    left: 30%;
+    position: absolute;
+    overflow: hidden;
+    border: black solid 1px;
+    border-radius: 50%;
+
+}

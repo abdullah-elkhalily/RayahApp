@@ -1,7 +1,6 @@
 /* eslint-disable no-unused-vars */
 import React from 'react'
 import  './Measurement.css'
-import  '../Login&regist/Screens.css'
 import  img4 from '../../assets/4.jfif' 
 import  img5 from '../../assets/3.png' 
 import { useNavigate } from 'react-router-dom'
